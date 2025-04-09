@@ -1,0 +1,127 @@
+/* General */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4faff; /* fondo claro */
+    color: #333;
+}
+
+#cuerpo {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Cabecera */
+#cabecera {
+    background-color: #0066CD;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.logo {
+    width: 80px;
+    float: left;
+    margin-right: 20px;
+}
+
+/* Menú de navegación */
+#menu {
+    background-color: #004a99;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.nav-enlace {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease, padding 0.3s ease;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.nav-enlace:hover {
+    background-color: #0066CD;
+}
+
+/* Artículos */
+.articulo {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #0066CD;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.articulo img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Formulario lateral */
+#lateral {
+    width: 300px;
+    background-color: #ffffff;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border: 1px solid #e0e0e0;
+}
+
+#lateral h2 {
+    text-align: center;
+    color: #0066CD;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 8px 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #0066CD;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #004a99;
+}
+
+/* Pie de página */
+#pie {
+    background-color: #004a99;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}

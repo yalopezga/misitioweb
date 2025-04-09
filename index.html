@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Villavicencio - Corazón del Llano</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <div id="cuerpo">
+    <!-- Cabecera -->
+    <header id="cabecera">
+      <img class="logo" src="imagenes/escudo.png" alt="Logo Villavicencio">
+      <h1>Villavicencio - Meta</h1>
+    </header>
+
+    <!-- Menú de Navegación -->
+    <nav id="menu">
+      <a href="#" class="nav-enlace">Inicio</a>
+      <a href="#cultura" class="nav-enlace">Cultura</a>
+      <a href="#turismo" class="nav-enlace">Turismo</a>
+      <a href="#gastronomia" class="nav-enlace">Gastronomía</a>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div style="display: flex; justify-content: space-between;">
+      <section id="seccion" style="flex-grow: 1; margin-right: 20px;">
+        <!-- Artículo 1 -->
+        <article id="cultura" class="articulo">
+          <h2>La cultura llanera: identidad de Villavicencio</h2>
+          <p>
+            Villavicencio es el alma del llano colombiano. La música llanera, el joropo y los cantos de vaquería son parte esencial de su identidad. Cada año, se celebran eventos como el Torneo Internacional del Joropo, que atrae a turistas de todo el mundo.
+            <br><br>
+            <img src="imagenes/joropo.jpeg" alt="Joropo en Villavicencio" width="300" height="200">
+            <br><br>
+            El folclor, la vestimenta tradicional y la hospitalidad llanera hacen de Villavicencio una ciudad única, llena de vida y tradición.
+          </p>
+        </article>
+
+        <br>
+        <article id="turismo" class="articulo">
+          <h2>5 lugares que debes visitar en Villavicencio</h2>
+          <p>
+            Desde el imponente <strong>Mirador La Piedra del Amor</strong> hasta el <strong>Parque Las Malocas</strong>, Villavicencio ofrece paisajes increíbles y actividades para toda la familia.
+            <br><br>
+            <img src="imagenes/turismo.jpeg" alt="Turismo en Villavicencio" width="300" height="200">
+            <br><br>
+            Otros imperdibles:<br>
+            - Bioparque Los Ocarros<br>
+            - Puente colgante del río Guatiquía<br>
+            - Catedral Nuestra Señora del Carmen<br><br>
+            ¡Ven y enamórate del Llano!
+          </p>
+        </article>
+
+        <article id="gastronomia" class="articulo">
+          <h2>Sabores del llano: lo mejor de la cocina villavicense</h2>
+          <p>
+            Villavicencio es tierra de sabor. El tradicional <strong>mamona</strong> (carne a la llanera), el <strong>pisillo</strong> de carne y el <strong>ajiaco llanero</strong> son algunos de los platos más representativos.
+            <br><br>
+            <img src="imagenes/comida.jpeg" alt="Comida típica del llano" width="300" height="200">
+            <br><br>
+            No olvides probar:<br>
+            - Chicha de arroz<br>
+            - Arepas de maíz pelado<br>
+            - Dulces de plátano y cuajada<br><br>
+            ¡La comida también cuenta historias!
+          </p>
+        </article>
+      </section>
+
+      <!-- Formulario lateral -->
+      <aside id="lateral">
+        <form action="" name="formulario">
+          <h2>¿Desde donde nos ves?</h2>
+
+          <div class="form-group">
+            <label for="nombre"><b>Nombre:</b></label>
+            <input type="text" id="nombre" name="txtNombre" placeholder="Ingrese  su nombre">
+          </div>
+
+          <div class="form-group">
+            <label for="correo"><b>Correo:</b></label>
+            <input type="email" id="correo" name="miEmail" placeholder="Ingrese su email">
+          </div>
+
+          <div class="form-group">
+            <label for="ciudad"><b>Ciudad:</b></label>
+            <input type="text" id="ciudad" name="ciudad" placeholder="Ingrese su ciudad">
+          </div>
+
+          <div class="form-group">
+            <label for="fecha"><b>Fecha:</b></label>
+            <input type="date" id="fecha" name="fecha" required>
+          </div>
+
+          <div class="form-group">
+            <input type="submit" value="Enviar">
+          </div>
+        </form>
+      </aside>
+    </div>
+
+    <!-- Pie de página -->
+    <footer id="pie">
+      <h5>Creado por Yilber Lopez &copy; Desde mi tierra natal.</h5>
+    </footer>
+  </div>
+</body>
+</html>
